@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'black': '#000',
+        'customTextBlack': '#071629',
+        'customYellowColor': '#FFCD51'
+      },
+      // Gradient Color
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'custom-gradient': 'linear-gradient(95deg, #FFC700 0.79%, #FF7A00 101%)',
       },
     },
   },
